@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WebStudio</title>
-    <!-- fonst -->
+    <!-- fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -328,7 +328,7 @@
               <li class="socials-item">
                 <a
                   class="socials-link sauce-socials-link"
-                  href
+                  href="#"
                   aria-label="Instagram link"
                 >
                   <svg class="socials-icon" width="24" height="24">
@@ -339,7 +339,7 @@
               <li class="socials-item">
                 <a
                   class="socials-link sauce-socials-link"
-                  href
+                  href="#"
                   aria-label="Twitter link"
                 >
                   <svg class="socials-icon" width="24" height="24">
@@ -350,8 +350,8 @@
               <li class="socials-item">
                 <a
                   class="socials-link sauce-socials-link"
-                  href
-                  aria-label="Twitter link"
+                  href="#"
+                  aria-label="Facebook link"
                 >
                   <svg class="socials-icon" width="24" height="24">
                     <use href="./images/icons.svg#icon-facebook"></use>
@@ -361,8 +361,8 @@
               <li class="socials-item">
                 <a
                   class="socials-link sauce-socials-link"
-                  href
-                  aria-label="Facebook link"
+                  href="#"
+                  aria-label="LinkedIn link"
                 >
                   <svg class="socials-icon" width="24" height="24">
                     <use href="./images/icons.svg#icon-linkedin"></use>
@@ -394,6 +394,66 @@
         </div>
       </div>
     </footer>
+    <!--todo Mobile-menu -->
+    <div class="menu-container js-menu-container" id="mobile-menu">
+      <button class="menu-toggle js-close-menu">
+        <svg class="menu-close-btn" width="8" height="8">
+          <use href="./images/icons.svg#icon-close2"></use>
+        </svg>
+      </button>
+
+      <ul class="mobile-menu">
+        <li><a href="./index.html" class="link color-blue">Studio</a></li>
+        <li><a href="./portfolio.html" class="link">Portfolio</a></li>
+        <li><a href="" class="link">Contacts</a></li>
+      </ul>
+
+      <ul class="mobile-contacts">
+        <li>
+          <a href="tel:+110001111111" class="mabile-contacts-tel link"
+            >+11 (000) 111-11-11</a
+          >
+        </li>
+        <li>
+          <a href="mailto:info@devstudio.com" class="mabile-contacts-mail link"
+            >info@devstudio.com</a
+          >
+        </li>
+      </ul>
+
+      <ul class="mobile-socials">
+        <li>
+          <a href="" class="link">
+            <svg class="mobile-socials-icon" width="24" height="24">
+              <use href="./images/icons.svg#icon-instagram"></use>
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a href="" class="link">
+            <svg class="mobile-socials-icon" width="24" height="24">
+              <use href="./images/icons.svg#icon-twitter"></use>
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a href="" class="link">
+            <svg class="mobile-socials-icon" width="24" height="24">
+              <use href="./images/icons.svg#icon-facebook"></use>
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a href="" class="link">
+            <svg class="mobile-socials-icon" width="24" height="24">
+              <use href="./images/icons.svg#icon-linkedin"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/body-scroll-lock@4.0.0-beta.0/lib/bodyScrollLock.min.js"></script>
+    <script defer src="./js/mobile-menu.js"></script>
     <script src="./js/modal.js"></script>
   </body>
 </html>
